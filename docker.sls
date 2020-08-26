@@ -7,6 +7,6 @@ service.running:
   - require:
     - pkg: docker-engine
 
-docker_container.run
+docker_container.run:
   - name: dcontainer
   - image: ubuntu
