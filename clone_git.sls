@@ -4,4 +4,4 @@ clone git repository:
 
   git.latest:
     - name: https://github.com/norunyana/linux
-    - target: /tmp/salt
+    - target: /git-repo
