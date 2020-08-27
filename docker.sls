@@ -1,4 +1,4 @@
-Check if Docker is running and start a container:
+Check_start_container:
   service.running:
     - name: docker
 
