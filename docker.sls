@@ -1,12 +1,8 @@
-check/install docker:
-  pkg.installed:
-    - name: docker-engine 
+Check if Docker is running and start a container:
+  service.running:
+    - name: docker
 
-service.running:
-  - name: docker
-  - require:
-    - pkg: docker-engine
-
-docker_container.run:
-  - name: dcontainer
-  - image: ubuntu
+  docker_container.run:
+    - name: dcontainer
+    - image: ubuntu
+    - replace: True

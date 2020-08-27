@@ -4,4 +4,4 @@ clone git repository:
 
   git.latest:
     - name: https://github.com/norunyana/linux
-    - target: /git-repo
+    - target: /git_repo/linux

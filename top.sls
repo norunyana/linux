@@ -1,10 +1,10 @@
 base:
   '*':
     - update_system
-    - clone_git
 
-  'masterminion':
-    - docker
+#  'masterminion': 
+#    - docker 
+#    - clone_git 
 
-  'minion*':
-    - rsyslog
+#  'minion*': 
+#    - rsyslog 
